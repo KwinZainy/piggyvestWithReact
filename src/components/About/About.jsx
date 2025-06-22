@@ -1,7 +1,7 @@
 import "./About.css"
 import User from "../../assets/img/story-img.png"
 import AppLogo from "../../assets/img/apple.png"
-import PlayLogo from "../../assets/img/play-removebg-preview.png"
+
 
 const About = () =>{
     return(
@@ -18,7 +18,7 @@ const About = () =>{
                     <p>Get on iphone</p>
                 </a>
                 <a href="#">
-                    <img src={PlayLogo} alt="" />
+                    <img src="/play.png" alt="" />
                     <p>Get on Andriod</p>
                 </a>
             </div>
