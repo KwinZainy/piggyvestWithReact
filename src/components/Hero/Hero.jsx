@@ -1,7 +1,6 @@
 import "./Hero.css"
 import Flower from "../../assets/img/flower-removebg-preview.png"
 import App from "../../assets/img/app.png"
-import Play from '/src/assets/img/play.png'
 import Abmg1 from "../../assets/img/abmg1.png"
 import Abmg2 from "../../assets/img/abmg2.png"
 import Abmg3 from "../../assets/img/abmg3.png"
@@ -25,7 +24,7 @@ const Hero = () =>{
                 <span>Get on iphone</span>
             </a>
             <a href="#">
-               <img src={Play} alt="" />
+               <img src="/play.png" alt="" />
                 <span>Get on Andriod</span>
             </a>
             </div>
